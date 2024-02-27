@@ -1,6 +1,4 @@
-if (!urlParams.get('room')) {
-    window.location = 'lobby.html'
-}
+
 let messagesContainer = document.getElementById('messages');
 messagesContainer.scrollTop = messagesContainer.scrollHeight;
 

@@ -1,4 +1,4 @@
-if (!roomId) {
+if (!room) {
     window.location = 'lobby.html'
 }
 let messagesContainer = document.getElementById('messages');
